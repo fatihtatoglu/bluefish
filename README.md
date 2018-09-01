@@ -9,6 +9,12 @@ The simple test application for docker.
 - [ ] Adding counter for hit counting.
 - [ ] Preparing multi-architecture docker image.
 
+##Building
+```bash
+cd Bluefish
+docker build -t bluefish .
+```
+
 ## Usage
 The docker images pushed to Docker Hub.
 
