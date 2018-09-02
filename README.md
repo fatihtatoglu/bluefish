@@ -1,6 +1,10 @@
-
 # bluefish
 The simple test application for docker.
+
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/fatihtatoglu/bluefish/blob/master/LICENSE)
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/mashape/kong.svg)](https://hub.docker.com/r/tatoglu/bluefish)
+
 
 ## Objectives
 - [X] Getting docker container information.
