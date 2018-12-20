@@ -1,28 +1,27 @@
 # bluefish
 The simple test application for docker.
 
-## Objectives
-- [X] Getting docker container information.
-- [X] Building docker image for Windows system.
-- [X] Building docker image for Linux system.
-- [ ] Adding counter for hit counting.
-- [ ] Preparing multi-architecture docker image.
-
-## Building
+## Building for Linux amd64
 ```bash
 cd Bluefish
-docker build -t bluefish .
+docker build -f Dockerfile -t bluefish .
+```
+
+## Building for Alpine Linux amd64
+```bash
+cd Bluefish
+docker build -f Dockerfile.alpine -t bluefish .
 ```
 
 ## Usage
 The docker images pushed to Docker Hub.
 
-### Windows
-```bash
-docker run -d -p 5000:5000 tatoglu/bluefish:windows
-```
-
 ### Linux
 ```bash
-docker run -d -p 5000:5000 tatoglu/bluefish:linux
+docker run -d -p 5000:5000 tatoglu/bluefish:latest
+```
+
+### Linux Alpine
+```bash
+docker run -d -p 5000:5000 tatoglu/bluefish:alpine
 ```
