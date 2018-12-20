@@ -18,10 +18,10 @@ The docker images pushed to Docker Hub.
 
 ### Linux
 ```bash
-docker run -d -p 5000:5000 tatoglu/bluefish:latest
+docker run -d -p 5000:80 tatoglu/bluefish:latest
 ```
 
 ### Linux Alpine
 ```bash
-docker run -d -p 5000:5000 tatoglu/bluefish:alpine
+docker run -d -p 5001:80 tatoglu/bluefish:alpine
 ```
